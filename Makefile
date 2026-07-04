@@ -8,7 +8,7 @@ SRC = src/main.c
 TARGET = viewer
 
 all:
-	$(CC) $(CFLAGS) $(SRC) $(SDL_CFLAGS) $(SDL_LIBS) -o $(TARGET)
+	$(CC) $(CFLAGS) $(SRC) $(SDL_CFLAGS) $(SDL_LIBS) -lm -o $(TARGET)
 
 clean:
 	rm -f $(TARGET)

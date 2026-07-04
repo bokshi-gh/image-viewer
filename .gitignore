@@ -1,0 +1,22 @@
+# compiled binary
+viewer
+*.out
+
+# object files
+*.o
+
+# editor / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# temporary / swap files
+*~
+*.swp
+*.swo
+
+# logs
+*.log
+
+# Linux system files
+.DS_Store
